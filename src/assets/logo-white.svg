@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+
+  <g style="" transform="matrix(6.962491, 0, 0, 6.590263, -563.961792, -1327.344971)">
+    <title>Logo</title>
+    <path style="fill: none; stroke-width: 1.92125px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 255, 255);" d="M 90.606 201.41 H 147.219 A 4.803 4.803 0 0 1 152.022 206.213 V 266.112 A 9.606 9.606 0 0 1 142.416 275.718 H 85.803 A 4.803 4.803 0 0 1 81 270.915 V 211.016 A 9.606 9.606 0 0 1 90.606 201.41 Z" bx:shape="rect 81 201.41 71.022 74.308 9.606 4.803 9.606 4.803 1@b7ee9107"/>
+    <g style="" transform="matrix(0.918682, 0, 0, 1.008754, 10.135947, -0.107742)">
+      <title>M</title>
+      <polyline style="fill: none; paint-order: fill; stroke-linejoin: round; stroke-linecap: round; stroke-width: 1.86377px; stroke: rgb(255, 255, 255);" points="116.222 262.352 110.943 262.343 114.527 262.358 114.12 215.7 106.124 248.055 98.21 215.7 98.644 262.469 102.389 262.468 97.065 262.51"/>
+    </g>
+    <g transform="matrix(0.957452, 0, 0, 0.946951, -143.375305, 13.356703)" style="">
+      <title>S</title>
+      <polyline style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.92125px; stroke: rgb(255, 255, 255);" points="291.985 218.974 291.956 215.559 275.863 215.559 275.842 248.835 291.739 255.716 291.772 265.424 275.842 265.424 275.842 260.537"/>
+    </g>
+  </g>
+</svg>
