@@ -1,10 +1,12 @@
 <template>
   <section id="skills">
-    <div class="text-center">
-      <h2>Skills</h2>
-      <p>These are my top skills</p>
-    </div>
-    <div class="container">
+
+    <div class="container text-center mb-5">
+      <div class="heading mx-5 ps-3">
+        <p class="text-muted lead">SKILLS</p>
+        <h1 class="display-2">These are <br /> my skills</h1>
+      </div>
+
       <div class="row d-flex justify-content-center">
         <div v-for="skill in skills" class="col-lg-5 mx-5 my-4" v-bind:key="skill.name">
           <SkillBox :data="skill"></SkillBox>
@@ -80,6 +82,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+.heading {
+  font-family:  'Lato', sans-serif;
+
+  h1 {
+    font-weight: bolder;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}
 
 </style>

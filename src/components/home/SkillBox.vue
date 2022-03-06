@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-box shadow rounded-3 p-1">
+  <div class="skill-box shadow rounded-3 p-1" data-aos="zoom-in">
     <div class="row">
       <div class="col-md-3 p-4">
         <img v-bind:src="data.icon" alt="image" width="70" height="70"/>

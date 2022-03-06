@@ -3,8 +3,7 @@
   <div class="container">
     <Skills></Skills>
   </div>
-  <Contact></Contact>
-  <div class="container">
+  <div class="container mt-5">
     <Portfolio></Portfolio>
   </div>
 </template>
@@ -12,12 +11,11 @@
 <script>
 import Hero from "@/components/home/Hero";
 import Skills from "@/components/home/Skills";
-import Contact from "@/components/home/Contact";
 import Portfolio from "@/components/home/Portfolio";
 
 export default {
   name: "Home",
-  components: {Portfolio, Contact, Skills, Hero}
+  components: {Portfolio, Skills, Hero}
 }
 </script>
 

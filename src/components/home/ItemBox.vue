@@ -1,5 +1,5 @@
 <template>
-  <div class="item-box ">
+  <div class="item-box " data-aos="zoom-in">
     <figure class="hover-img">
       <img :src="data.src"/>
       <figcaption>

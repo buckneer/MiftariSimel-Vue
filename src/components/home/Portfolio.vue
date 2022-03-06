@@ -1,9 +1,13 @@
 <template>
-  <div class="text-center">
-    <h2>Portfolio</h2>
-    <p>These are the apps that I've made over the years</p>
-  </div>
-  <div class="container">
+<!--  <div class="text-center">-->
+<!--    <h2>Portfolio</h2>-->
+<!--    <p>These are the apps that I've made over the years</p>-->
+<!--  </div>-->
+  <div class="container text-center">
+    <div class="heading mx-5 ps-3">
+      <p class="text-muted lead">PORTFOLIO</p>
+      <h1 class="display-2">These are<br /> my apps</h1>
+    </div>
     <div class="row d-flex justify-content-center">
       <div v-for="item in items" class="col-lg-4 mx-2 my-4" v-bind:key="item.title">
         <ItemBox :data="item"></ItemBox>
@@ -67,6 +71,18 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
 
+.heading {
+  font-family:  'Lato', sans-serif;
+
+  h1 {
+    font-weight: bolder;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}
 </style>
